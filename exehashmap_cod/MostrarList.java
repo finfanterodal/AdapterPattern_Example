@@ -10,6 +10,10 @@ package exehashmap_cod;
  */
 public class MostrarList {
 
+    /**
+     *  Método para mostrar los datos de nuestros Arraylist.
+     * @param lista
+     */
     public static void mostrar(ClassList lista) {
         System.out.printf("%10S %10S", "Value", "Index");
         for (int i = 0; i < lista.lista.size(); i++) {
